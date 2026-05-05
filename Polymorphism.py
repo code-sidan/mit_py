@@ -1,0 +1,16 @@
+class Vehicle:
+    def move(self):
+        pass
+
+class Car(Vehicle):
+    def move(self):
+        print("Driving on the road")
+
+class Bicycle(Vehicle):
+    def move(self):
+        print("Pedaling on the road")
+
+v = [Car(), Bicycle()]
+
+for i in v:
+    i.move()
